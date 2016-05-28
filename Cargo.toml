@@ -1,0 +1,10 @@
+[package]
+name = "shittyterraingen"
+version = "0.1.0"
+authors = ["Peter Atashian <retep998@gmail.com>"]
+[profile.release]
+debug = true
+lto = true
+[dependencies]
+noise = "0.2"
+lazy_static = "0.2"
